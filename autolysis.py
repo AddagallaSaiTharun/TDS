@@ -211,7 +211,7 @@ FUNCTIONS = [
 
 # Load Dataset
 file_path = sys.argv[1]
-file_folder = file_path.split(".csv")[0]
+file_folder = file_path.split(".csv")[0].split('\\')[-1]
 os.makedirs(file_folder, exist_ok=True)
 readME = {}
 
