@@ -1,0 +1,7 @@
+.venv
+.env
+goodreads.csv
+happiness.csv
+media.csv
+autolysis_temp.py
+temp.py
